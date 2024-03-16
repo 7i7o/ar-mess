@@ -1,3 +1,7 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "Lua.workspace.library": [
+        "/Users/7i7o/Library/Application Support/Code/User/globalStorage/sumneko.lua/addonManager/addons/ao/module/library"
+    ],
+    "Lua.workspace.checkThirdParty": false
 }

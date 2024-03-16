@@ -11,16 +11,10 @@
     right: 1em;
 }
 
-.connect-button {
-    position: absolute;
-    top: 1em;
-    right: 1em;
-}
-
 .card {
     padding: 2em;
 }
 
-.read-the-docs {
-    color: #888;
+.addressInputNotice {
+    color: red;
 }

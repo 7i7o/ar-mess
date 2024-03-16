@@ -8,6 +8,9 @@ dependencies:
   '@permaweb/aoconnect':
     specifier: ^0.0.45
     version: 0.0.45
+  arweave:
+    specifier: ^1.14.4
+    version: 1.14.4
   arweave-wallet-kit:
     specifier: ^1.0.4
     version: 1.0.4(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)
