@@ -10,7 +10,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             config={{
                 permissions: [
                     'ACCESS_ADDRESS',
+                    'ACCESS_ALL_ADDRESSES',
                     'ACCESS_PUBLIC_KEY',
+                    'DISPATCH',
                     'SIGN_TRANSACTION',
                 ],
                 ensurePermissions: true,

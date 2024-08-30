@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { createDataItemSigner, message } from '@permaweb/aoconnect';
 import { usePublicKey } from 'arweave-wallet-kit';
-import { AO_ID } from '../App';
+import { AO_ID } from '../contexts/config';
 
 export function Register() {
     const publicKey = usePublicKey();

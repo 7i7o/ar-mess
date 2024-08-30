@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from 'react';
-import { AO_ID } from '../App';
 import { useKey } from '../ao/registry';
+import { AO_ID } from '../contexts/config';
 
 export function Messenger() {
     const [recipient, setRecipient] = useState('');

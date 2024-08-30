@@ -1,12 +1,12 @@
 import { useActiveAddress } from 'arweave-wallet-kit';
-import { AO_ID } from '../App';
 import { useKey } from '../ao/registry';
 import Messenger from './Messenger';
 import Register from './Register';
+import { AO_ID } from '../contexts/config';
 
 export function ArMessenger() {
-    const activeaAddress = useActiveAddress();
-    const [key, loading] = useKey(AO_ID, activeaAddress ?? '');
+    const activeAddress = useActiveAddress();
+    const [key, loading] = useKey(AO_ID, activeAddress ?? '');
 
     return (
         <>

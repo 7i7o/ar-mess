@@ -1,5 +1,14 @@
 import { createContext } from 'react';
 
+export const DEFAULT_RECIPIENT = 'nc7T9jzx53Iyt4HfEhc7IAbbFKZlWwPDvQWa8Rrdr3g';
+
+export const AO_ID = '7MCaTzo1teKUywMvFU_gnr-hAeEmkaM4xMvRRerWUdo';
+export const TOKEN_7i7oken = '1HD12LRKH6Wkppbn8Svyd0poecZk__BwemgNlJ59G8o';
+export const TOKEN_InfiniToken = '4ctcQGCH8ekGw43d9Mdz2Mw6SX1LiAY54mGWdNAYqjM';
+export const TOKEN_ID = TOKEN_InfiniToken;
+
+export const GW = 'https://g8way.io';
+
 export interface Config {
     CU_URL: string;
     MU_URL: string;
@@ -9,7 +18,7 @@ export interface Config {
 export const defaultConfig: Config = {
     CU_URL: 'https://cu.ao-testnet.xyz',
     MU_URL: 'https://mu.ao-testnet.xyz',
-    GATEWAY_URL: 'https://g8way.io:443',
+    GATEWAY_URL: `${GW}:443`,
 };
 
 export const ConfigContext = createContext<[Config, (val: Config) => void]>(

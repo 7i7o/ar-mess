@@ -11,12 +11,14 @@
     },
     "dependencies": {
         "@permaweb/aoconnect": "^0.0.45",
-        "arweave": "^1.14.4",
+        "arweave": "^1.15.1",
         "arweave-wallet-kit": "^1.0.4",
+        "axios": "^1.7.4",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@othent/kms": "^2.0.0",
         "@types/react": "^18.2.56",
         "@types/react-dom": "^18.2.19",
         "@typescript-eslint/eslint-plugin": "^7.0.2",
@@ -27,6 +29,11 @@
         "eslint-plugin-react-refresh": "^0.4.5",
         "prettier": "^3.2.5",
         "typescript": "^5.2.2",
-        "vite": "^5.1.4"
+        "vite": "^5.1.4",
+        "warp-arbundles": "^1.0.4"
+    },
+    "peerDependencies": {
+        "@othent/kms": "^2.0.0",
+        "warp-arbundles": "^1.0.4"
     }
 }

@@ -1,6 +1,18 @@
 import { useContext, useEffect, useState } from 'react';
 import { type Tag } from 'arweave/web/lib/transaction';
 import { ConfigContext } from '../contexts/config';
+import Arweave from 'arweave';
+
+let arweave: Arweave | null = null;
+
+/**
+ * Get arweave instance
+ */
+export const getArweave = () => {
+    if (arweave === null) arweave = Arweave.init({});
+
+    return arweave;
+};
 
 /**
  * Find the value for a tag name
